@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://sabilillah-detail-api-server.vercel.app/api',
 });
 
 export default client;
