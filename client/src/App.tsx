@@ -4,11 +4,8 @@ import KelasList from "./pages/KelasList"
 import Dashboard from "./pages/Dashboard"
 import NilaiDetail from "./pages/NilaiDetail"
 import SidebarNav from "./components/SidebarNav"
-import { useState } from 'react';
 
 function App() {
-
-  const [open, setOpen] = useState(true);
 
   return (
     <div className="w-full flex">
